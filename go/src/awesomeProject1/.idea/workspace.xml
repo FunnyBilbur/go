@@ -15,47 +15,53 @@
     <session id="-1670204429">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.170" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="go" value="7" />
+          <entry key="css" value="8" />
+          <entry key="go" value="8" />
           <entry key="groovy" value="1" />
-          <entry key="html" value="11" />
+          <entry key="html" value="33" />
           <entry key="properties" value="1" />
           <entry key="scss" value="2" />
+          <entry key="tmpl" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="Go" value="6" />
-          <entry key="HTML" value="11" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="CSS" value="8" />
+          <entry key="Go" value="7" />
+          <entry key="HTML" value="33" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="591" />
+          <entry key="go" value="923" />
           <entry key="groovy" value="1" />
-          <entry key="html" value="9" />
+          <entry key="html" value="203" />
+          <entry key="tmpl" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="591" />
-          <entry key="HTML" value="9" />
+          <entry key="Go" value="923" />
+          <entry key="HTML" value="203" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -63,20 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/New Site/blank.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="17">
+              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -92,6 +89,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>backg</find>
+      <find>coolgif24</find>
+      <find>blank.html</find>
+      <find>.html</find>
+      <find>font-awesome</find>
+      <find>awesome</find>
+      <find>html</find>
+      <find>font</find>
+      <find>fa-twitter</find>
       <find>css</find>
     </findStrings>
   </component>
@@ -103,8 +109,18 @@
         <option value="$PROJECT_DIR$/AboutUs.html" />
         <option value="$PROJECT_DIR$/New Site/main.go" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/New Site/blank.html" />
+        <option value="$PROJECT_DIR$/templates/index.tmpl" />
+        <option value="$PROJECT_DIR$/templates/AboutUs.html" />
+        <option value="$PROJECT_DIR$/templates/dogovor.html" />
+        <option value="$PROJECT_DIR$/templates/done.html" />
+        <option value="$PROJECT_DIR$/templates/download.html" />
+        <option value="$PROJECT_DIR$/templates/Feature.html" />
+        <option value="$PROJECT_DIR$/templates/privacy-policy.html" />
+        <option value="$PROJECT_DIR$/templates/Support.html" />
+        <option value="$PROJECT_DIR$/templates/Price.html" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/templates/blank.html" />
       </list>
     </option>
   </component>
@@ -114,11 +130,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="552" />
-    <option name="y" value="80" />
-    <option name="width" value="1317" />
-    <option name="height" value="578" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="242" />
+    <option name="y" value="-12" />
+    <option name="width" value="1441" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -132,17 +148,6 @@
             <path>
               <item name="awesomeProject1" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesomeProject1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesomeProject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesomeProject1" type="462c0819:PsiDirectoryNode" />
-              <item name="New Site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesomeProject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesomeProject1" type="462c0819:PsiDirectoryNode" />
-              <item name="New Site" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesomeProject1" type="b2602c69:ProjectViewProjectNode" />
@@ -172,9 +177,11 @@
       <recent name="C:\Users\Dmitry\go\src\awesomeProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dmitry\go\src\awesomeProject1\New Site\static" />
+      <recent name="C:\Users\Dmitry\go\src\awesomeProject1\templates" />
+      <recent name="C:\Users\Dmitry\go\src\awesomeProject1\static\image" />
+      <recent name="C:\Users\Dmitry\go\src\awesomeProject1\static\css" />
       <recent name="C:\Users\Dmitry\go\src\awesomeProject1" />
-      <recent name="C:\Users\Dmitry\go\src\awesomeProject1\New Site" />
+      <recent name="C:\Users\Dmitry\go\src\awesomeProject1\New Site\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,23 +253,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="80" width="1317" height="578" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1734288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11567164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49653378" visible="true" weight="0.264574" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47707888" weight="0.11147186" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32929516" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5034662" side_tool="true" weight="0.264574" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,20 +300,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blank.html" />
     <entry file="file://$PROJECT_DIR$/AboutUs.html" />
-    <entry file="file://$PROJECT_DIR$/New Site/Support.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/New Site/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/New Site/styleguide.html">
+    <entry file="file://$PROJECT_DIR$/templates/styleguide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New Site/AboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
@@ -321,22 +319,85 @@
     <entry file="file://$PROJECT_DIR$/New Site/Untitled1.scss" />
     <entry file="file://$PROJECT_DIR$/New Site/Untitled.scss" />
     <entry file="file://$PROJECT_DIR$/New Site/Untitled.css" />
-    <entry file="file://$PROJECT_DIR$/New Site/static/theme.css">
+    <entry file="file://$PROJECT_DIR$/templates/index.tmpl" />
+    <entry file="file://$PROJECT_DIR$/static/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signIN.html" />
+    <entry file="file://$PROJECT_DIR$/templates/dogovor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1581" />
+        <state relative-caret-position="318">
+          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/AboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Feature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="122" column="2" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/privacy-policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Support.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Price.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="90" column="112" selection-start-line="90" selection-start-column="106" selection-end-line="90" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7741" selection-start-line="3" selection-start-column="7731" selection-end-line="3" selection-end-column="7741" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New Site/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="17">
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
         </state>
       </provider>
     </entry>
